@@ -9,10 +9,7 @@
        * element that contains the map. */
        
       header {
-        background-color: rgba(34, 49, 52, 0.9);
-        
-          
-          
+        background-color: rgba(34, 49, 52, 0.9);   
       }
       #head {
           margin-top:20px;
@@ -37,6 +34,20 @@
           position: absolute;
          
 
+      }
+      
+      #b1 {
+        background-color: #555555;
+        border: 5px solid white;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+       text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-left:500px;
+      margin-top:20px;
+      position: absolute;
       }
 
       #map {
@@ -191,7 +202,9 @@ function showLoc(pos){
   <body>
       <header>
           
-          <p id="head"><img id="icon" src="pinterest_profile_image.png" alt="Chef Icon"><span id="name">JE VOUDRIAS..</span></p>
+          <p id="head"><img id="icon" src="pinterest_profile_image.png" alt="Chef Icon"><span id="name">JE VOUDRIAS..</span><a href="recipes.html" target="_blank"><button id="b1">Recipes</button></a>
+           
+          </p>
       </header>
       <div id="back">
     <div id="map"></div>
